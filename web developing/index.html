@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- HTTPS Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; upgrade-insecure-requests;">
+    <meta http-equiv="Upgrade-Insecure-Requests" content="1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="X-Content-Type-Options" content="nosniff">
+    <meta name="X-Frame-Options" content="SAMEORIGIN">
+    <meta name="X-XSS-Protection" content="1; mode=block">
+    <meta name="strict-transport-security" content="max-age=31536000; includeSubDomains; preload">
+    
+    <!-- HTTPS Enforcement Script -->
+    <script>
+        // Enforce HTTPS protocol
+        if (window.location.protocol !== 'https:' && window.location.hostname !== 'localhost') {
+            window.location.protocol = 'https:';
+        }
+    </script>
+    
+    <title>Webmaking on LINUX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-top">
+            <h1 class="porsche-hub-title">Porsche Hub</h1>
+        </div>
+        <div class="nav-buttons">
+        </div>
+    </nav>
+    
+    <div class="searchbar-container">
+        <div class="settings-wrapper">
+            <button class="settings-icon" id="settingsBtn">⚙️</button>
+            <div class="settings-dropdown" id="settingsDropdown">
+                <a href="#" class="dropdown-item">🌙 Dark Mode</a>
+                <a href="#" class="dropdown-item">🌍 Language</a>
+                <a href="#" class="dropdown-item">🔔 Notifications</a>
+                <a href="#" class="dropdown-item">🔊 Sound</a>
+                <a href="#" class="dropdown-item">🔒 Privacy</a>
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">👤 Account Settings</a>
+                <a href="#" class="dropdown-item">⚡ Preferences</a>
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item logout">🚪 Logout</a>
+            </div>
+        </div>
+        <div class="searchbar">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="right-icons">
+            <button class="nav-btn">Login</button>
+            <button class="profile-icon">👤</button>
+        </div>
+    </div>
+    
+    <div class="content-section">
+        <h2 class="main-heading">Discover Porsche Excellence</h2>
+        
+        <div class="slogan-banner">
+            <p class="slogan">"There is no substitute for passion" - Porsche</p>
+        </div>
+        
+        <div class="paragraph-container">
+            <p>Porsche is a world-renowned German automobile manufacturer, known for producing high-performance sports cars and luxury vehicles. Founded in 1931, Porsche has become synonymous with engineering excellence, innovative design, and thrilling driving experiences. From the iconic 911 to the versatile Cayenne SUV, every Porsche vehicle combines cutting-edge technology with timeless style. With a legacy spanning over 90 years, Porsche continues to push the boundaries of automotive performance while maintaining its commitment to quality, sustainability, and customer satisfaction.</p>
+        </div>
+        
+        <div class="article-section">
+            <h3>Engineering Excellence & Innovation</h3>
+            <p>Porsche's commitment to engineering excellence is evident in every vehicle they produce. Each model is meticulously designed with precision and attention to detail, incorporating the latest automotive technology. From advanced turbocharging systems to hybrid powertrains, Porsche continuously innovates to deliver superior performance. The brand's engineering team works tirelessly to balance raw power with efficiency, ensuring that every Porsche offers an unmatched driving experience that sets new industry standards.</p>
+        </div>
+        
+        <div class="article-section">
+            <h3>Global Impact & Heritage</h3>
+            <p>With over a century of automotive excellence, Porsche has established itself as a global leader in luxury performance vehicles. The company operates state-of-the-art manufacturing facilities around the world, employing innovative production techniques and sustainable practices. Porsche's influence extends beyond the automotive industry, inspiring countless manufacturers and enthusiasts worldwide. The brand's heritage is built on a foundation of German engineering precision and a relentless pursuit of perfection in every aspect of vehicle design and production.</p>
+        </div>
+        
+        <div class="article-section">
+            <h3>Technology & Smart Features</h3>
+            <p>Modern Porsche vehicles are equipped with cutting-edge technology that enhances both performance and comfort. From advanced infotainment systems to intelligent driver assistance features, Porsche seamlessly integrates technology into the driving experience. The vehicles feature sophisticated navigation systems, adaptive suspension technology, and connectivity features that keep you connected to the digital world. Whether you're tracking performance metrics on the track or enjoying seamless smartphone integration, Porsche's technology ecosystem ensures a premium driving experience.</p>
+        </div>
+        
+        <div class="article-section">
+            <h3>Performance & Driving Dynamics</h3>
+            <p>The heart of every Porsche is its exceptional performance capabilities. Engineered for speed and precision, Porsche vehicles deliver breathtaking acceleration and responsive handling that drivers crave. Whether it's the lightning-quick 911 or the commanding presence of the Panamera, every Porsche is tuned for optimal performance on both road and track. Advanced braking systems, exclusive tire technology, and aerodynamic design work in harmony to deliver uncompromising performance that defines the true essence of driving a Porsche.</p>
+        </div>
+        
+        <div class="article-section">
+            <h3>Sustainability & Future Vision</h3>
+            <p>Porsche is committed to building a sustainable future while maintaining its performance heritage. The company has invested heavily in electric vehicle technology, with the innovative Taycan leading the charge into the electric era. Porsche's sustainability initiatives focus on reducing carbon footprints, using environmentally responsible materials, and developing efficient manufacturing processes. By blending environmental responsibility with thrilling performance, Porsche is shaping the future of automotive excellence for generations to come.</p>
+        </div>
+        
+        <div class="article-section">
+            <h3>Luxury & Lifestyle</h3>
+            <p>Owning a Porsche is more than just purchasing a vehicle; it's embracing a lifestyle of elegance, performance, and prestige. Every detail, from the luxurious interior appointments to the meticulously crafted exterior, reflects Porsche's dedication to excellence. Porsche owners become part of an exclusive community of enthusiasts who share a passion for automotive excellence. Whether attending exclusive Porsche events, connecting with fellow owners, or experiencing the thrill of track days, Porsche ownership represents the pinnacle of automotive lifestyle achievement.</p>
+        </div>
+        
+        <div class="slogan-banner">
+            <p class="slogan">"Engineered for those who refuse to compromise" - Porsche Tagline</p>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Porsche</h3>
+                <ul>
+                    <li><a href="https://www.porsche.com" target="_blank">Visit Official Porsche Website</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/Porsche" target="_blank">Facebook</a>
+                    <a href="https://twitter.com/Porsche" target="_blank">Twitter</a>
+                    <a href="https://www.instagram.com/porsche/" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 My Website. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
